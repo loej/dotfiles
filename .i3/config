@@ -11,7 +11,7 @@ exec xrandr --output DVI-D-1 --below HDMI-1
 # workspace_layout tabbed <stacking|tabbed>
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-default_border pixel 3
+default_border pixel 0
 default_floating_border normal
 
 # Hide borders
@@ -58,9 +58,9 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 # bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness down'"
 
 # Start Applications
-bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
+ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+Shift+w exec google-chrome-stable
-bindsym $mod+F3 exec pcmanfm
+ bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 bindsym $mod+F5 exec terminal -e 'mocp'
