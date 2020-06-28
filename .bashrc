@@ -2,6 +2,7 @@
 # ~/.bashrc
 #
 
+# Pywall Automatically terminal with color scheme
 (cat ~/.cache/wal/sequences &)
 
 

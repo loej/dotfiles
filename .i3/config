@@ -1,4 +1,15 @@
-# Joel's I3 config file 
+
+#    ___         ___          ___                       ___                                       ___          ___          ___          ___                   ___     
+#   /  /\       /  /\        /  /\                     /  /\                ___                  /  /\        /  /\        /__/\        /  /\     ___         /  /\    
+#  /  /:/      /  /::\      /  /:/_                   /  /:/_              /  /\                /  /:/       /  /::\       \  \:\      /  /:/_   /  /\       /  /:/_   
+# /__/::\     /  /:/\:\    /  /:/ /\   ___     ___   /  /:/ /\            /  /:/               /  /:/       /  /:/\:\       \  \:\    /  /:/ /\ /  /:/      /  /:/ /\  
+# \__\/\:\   /  /:/  \:\  /  /:/ /:/_ /__/\   /  /\ /  /:/ /::\          /__/::\              /  /:/  ___  /  /:/  \:\  _____\__\:\  /  /:/ /://__/::\     /  /:/_/::\ 
+#    \  \:\ /__/:/ \__\:\/__/:/ /:/ /\\  \:\ /  /://__/:/ /:/\:\         \__\/\:\__          /__/:/  /  /\/__/:/ \__\:\/__/::::::::\/__/:/ /:/ \__\/\:\__ /__/:/__\/\:\
+#     \__\:\\  \:\ /  /:/\  \:\/:/ /:/ \  \:\  /:/ \  \:\/:/~/:/            \  \:\/\         \  \:\ /  /:/\  \:\ /  /:/\  \:\~~\~~\/\  \:\/:/     \  \:\/\\  \:\ /~~/:/
+#     /  /:/ \  \:\  /:/  \  \::/ /:/   \  \:\/:/   \  \::/ /:/              \__\::/          \  \:\  /:/  \  \:\  /:/  \  \:\  ~~~  \  \::/       \__\::/ \  \:\  /:/ 
+#    /__/:/   \  \:\/:/    \  \:\/:/     \  \::/     \__\/ /:/               /__/:/            \  \:\/:/    \  \:\/:/    \  \:\       \  \:\       /__/:/   \  \:\/:/  
+#    \__\/     \  \::/      \  \::/       \__\/        /__/:/                \__\/              \  \::/      \  \::/      \  \:\       \  \:\      \__\/     \  \::/   
+ #              \__\/        \__\/                     \__\/                                     \__\/        \__\/        \__\/        \__\/                 \__\/    
 
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
@@ -218,7 +229,8 @@ for_window [class="Skype"] floating enable border normal
 for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
-for_window [class="URxvt"] floating enable, resize set 900 350
+# Sets Urxvt terminal to a certain position and size to screen.
+for_window [class="URxvt"] floating enable, resize set 900 350, move position 30 1100
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
