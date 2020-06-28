@@ -1,1 +1,2 @@
-/home/joel/.vimrc
+set nu
+
