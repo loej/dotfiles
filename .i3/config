@@ -195,6 +195,18 @@ bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
+workspace 1 output DVI-D-0 
+workspace 2 output HDMI-0
+workspace 3 output DVI-D-0
+workspace 4 output HDMI-0
+# workspace 5 output $firstMonitor
+# workspace 6 output $secondMonitor
+# workspace 7 output $secondMonitor
+# workspace 8 output $secondMonitor
+# workspace 9 output $secondMonitor
+# workspace 10 output $secondMonitor
+
+
 # Open applications on specific workspaces
 # assign [class="Thunderbird"] $ws1
 # assign [class="Pale moon"] $ws2
@@ -230,7 +242,7 @@ for_window [class="Timeset-gui"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [class="Xfburn"] floating enable
 # Sets Urxvt terminal to a certain position and size to screen.
-for_window [class="URxvt"] floating enable, resize set 900 400, move position 525 1720
+for_window [class="URxvt"] floating enable, resize set 900 600, move position 525 200
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
