@@ -5,8 +5,6 @@
 # Pywall Automatically terminal with color scheme
 (cat ~/.cache/wal/sequences &)
 
-#Calls pfetch
-pfetch
 
 [[ $- != *i* ]] && return
 
@@ -147,4 +145,6 @@ ex ()
 # Custom Custom Prompt
 PS1="\n \[\033[0;34m\]┌─────(\[\033[1;35m\]\u\[\033[0;34m\])─────(\[\033[1;32m\]\w\[\033[0;34m\]) \n └> \[\033[1;36m\]\$ \[\033[0m\]"
 
-
+#custom pfetch
+EDITOR="vim"
+PF_INFO="ascii title os uptime memory shell editor wm palette" PF_ASCII="linux" pfetch
