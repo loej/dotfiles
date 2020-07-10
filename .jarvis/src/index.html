@@ -1,0 +1,34 @@
+<!--- Welcome to ~/Jarvis!. A Simple startup page for chrome. The html/css/js files will be commented thoroughly. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title. -->
+    <title>~/Jarvis</title>
+    <!-- Linking css stylesheet. -->
+    <link id="myLink" rel="stylesheet" href="style.css">
+</head>
+<main>
+    <body>
+    <!-- Script File. -->
+    <script src="main.js"></script>
+    <!-- Terminal Prompt. This is what is being animated and has two colors. -->
+    <p class="type">
+        <!-- Configuration to add different colors to terminal prompt. -->
+        <span class="grayText">[</span>joel<span class="grayText">@</span>manjaro ~<span class="whiteText"><span class="grayText">] </span></span>
+        <span class="grayText">$</span>
+        <span class="grayText"> tree -h</span>
+    </p>
+    <!-- All of the listed 'directories'.  -->
+    <div id="treeText" style="display: none">
+        <h1 class="dot">.</h1>
+        <ul class="Tree">
+            <li id="dev" class="dev" onclick="linkFunction()">dev</li>
+            <li class="school">school</li>
+            <li class="work">work</li>
+            <li class="media">media</li>
+        </ul>
+    </div>
+    </body>
+</main>
+</html>
