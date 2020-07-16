@@ -1,2 +1,3 @@
-# .dotfiles
-My Manjaro ~/.dotfiles.
+<center> ~/dotfiles </center>
+
+My Manjaro dotfiles!
