@@ -1,1 +1,1 @@
-<h1> <center> ~/.dotfiles </center> <h1> 
+<h1 align="center"> ~/.dotfiles </h1>
