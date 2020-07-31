@@ -15,6 +15,9 @@
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod1
 
+# Setting polybar 
+exec_always --no-startup-id /home/joel/.i3/polybar/launch.sh
+
 # Set monitors 
 exec xrandr --output DVI-D-0 --below HDMI-0
 
