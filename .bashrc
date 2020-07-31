@@ -148,3 +148,4 @@ PS1="\n \[\033[0;34m\]┌─────(\[\033[1;35m\]\u\[\033[0;34m\])──�
 #custom pfetch
 EDITOR="vim"
 PF_INFO="ascii title os uptime memory shell editor wm palette" PF_ASCII="linux" pfetch
+alias notes='~/PycharmProjects/Automate-Notes/src/./notes.py'
