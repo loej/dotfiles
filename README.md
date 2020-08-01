@@ -1,10 +1,11 @@
+<h1 align="center"> ~/.dotfiles 🗣 </h1>
 <div align="center">
   <a>
     <img src="images/logo.png" width="200">
   </a>
 </div
 
-<h1 align="center"> ~/.dotfiles 🗣 </h1>
+<h1 align="center"></h1>
 
 
 ## Preview
@@ -18,7 +19,7 @@
 </div>
 
 
-## System Overview 
+# System Overview 
 **OS**: Manjaro Linux
 **Shell**: Bash
 **Terminal**: Urxvt
