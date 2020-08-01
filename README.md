@@ -22,6 +22,7 @@
 ## System Overview 
 + **OS**: Manjaro Linux
 + **Shell**: Bash
++ **WM**: i3-gaps
 + **Terminal**: Urxvt
 + **Editor**: Vim / NeoVim
 + **File Manager**: Ranger
