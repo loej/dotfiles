@@ -19,7 +19,7 @@
 </div>
 
 
-# System Overview 
+## System Overview 
 **OS**: Manjaro Linux
 **Shell**: Bash
 **Terminal**: Urxvt
