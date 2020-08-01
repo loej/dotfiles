@@ -1,7 +1,7 @@
 <h1 align="center"> ~/.dotfiles 🗣 </h1>
 <div align="center">
   <a>
-    <img src="images/logo.png" width="200">
+    <img src="images/logoRepo.png" width="200">
   </a>
 </div
 
